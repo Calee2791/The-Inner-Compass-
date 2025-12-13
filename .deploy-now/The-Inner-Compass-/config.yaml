@@ -14,4 +14,4 @@ deployment:
   # Static site - deploy root directory
   type: static
   # Source folder to deploy (relative to repository root)
-  source: /github/workflows/The-Inner-Compass--build.yaml:16-18
+  source: .
