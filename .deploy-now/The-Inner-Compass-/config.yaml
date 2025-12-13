@@ -1,0 +1,17 @@
+# Deploy Now configuration
+# https://docs.ionos.space/docs/config-file/
+
+# Version of the config file format
+version: 1.0
+
+# Build configuration
+build:
+  # Build steps - none needed for static HTML site
+  steps: []
+
+# Deployment configuration  
+deployment:
+  # Static site - deploy root directory
+  type: static
+  # Source folder to deploy (relative to repository root)
+  source: .
