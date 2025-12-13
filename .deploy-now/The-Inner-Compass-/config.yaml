@@ -1,0 +1,11 @@
+# IONOS Deploy Now configuration
+# See https://docs.ionos.space/docs/config-file-reference for details
+
+# Exclude files from deployment
+distFolder: .
+excludes:
+  - .git
+  - .github
+  - .deploy-now
+  - README.md
+  - SECURITY.md
