@@ -14,4 +14,5 @@ deployment:
   # Static site - deploy root directory
   type: static
   # Source folder to deploy (relative to repository root)
-  source: .
+  source: .DEPLOYMENT_FOLDER: ./
+
